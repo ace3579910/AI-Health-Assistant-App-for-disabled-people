@@ -10,7 +10,8 @@ This repository contains two separate builds:
   2.Raspberry Pi Version  
 Each version is optimized for the device it runs on.
 
-**Desktop version**
+**1. Desktop version**  
+
 The desktop version contains a custom hand-sign dataset, AI-based prediction, and tools to add your own symptoms.
 Clone the desktop version using commands:
   ```bash
@@ -84,3 +85,5 @@ Run inference.py
 ```bash
 python -m streamlit run inference.py
 ```
+
+**2. Raspberry Pi Version**
