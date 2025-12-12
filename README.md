@@ -128,4 +128,19 @@ Navigate to the folder
 cd AI-Health-Assistant-App-for-disabled-people/Raspberry-version
 ```
 Now setup Virtual Environment Setup (venv)  
-venv is a virtual environment keeps all the Python packages for this project isolated from the system Python installation. This prevents version conflicts, makes the project easier to manage, and ensures that the desktop and Raspberry Pi versions each use the correct dependencies without affecting other programs on the device.
+venv is a virtual environment keeps all the Python packages for this project isolated from the system Python installation. This prevents version conflicts, makes the project easier to manage, and ensures that the desktop and Raspberry Pi versions each use the correct dependencies without affecting other programs on the device.  
+```bash
+python3 -m venv venv 
+```
+It creates a new virtual environment folder named venv
+```bash
+source venv/bin/activate
+```
+Install required packages:  
+```bash
+pip install --upgrade pip
+pip install -r requirements-rpi.txt
+```
+**1. Running the DS18B20 Temperature Reader:**  
+Connect the following pins  
+<img width="235" height="215" alt="image" src="https://github.com/user-attachments/assets/9332d480-9314-4899-983b-dadded720a11" />
