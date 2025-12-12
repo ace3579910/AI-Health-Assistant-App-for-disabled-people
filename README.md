@@ -30,13 +30,13 @@ This dataset includes hand-sign images for the following symptoms:
   
 &nbsp;&nbsp;&nbsp;-dizziness  
   
-  -fever  
+ &nbsp;&nbsp;&nbsp; -fever  
   
-  -low_back_pain  
+&nbsp;&nbsp;&nbsp;  -low_back_pain  
   
-  -nausea  
+&nbsp;&nbsp;&nbsp; -nausea  
   
-  -sore_throat
+ &nbsp;&nbsp;&nbsp;-sore_throat
 
 These datasets are used for training models that convert hand gestures into symptom text.
 
