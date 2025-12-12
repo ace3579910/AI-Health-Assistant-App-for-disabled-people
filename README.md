@@ -12,6 +12,7 @@ Each version is optimized for the device it runs on.
 **Desktop version**
 The desktop version contains a custom hand-sign dataset, AI-based prediction, and tools to add your own symptoms.
 Clone the desktop version using commands:
+  '''bash
   git clone https://github.com/ace3579910/assistive-health-assistant.git
   
 1.**gesture_data:** Custom Dataset (Hand Sign Detection)
