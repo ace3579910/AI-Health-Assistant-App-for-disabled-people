@@ -90,3 +90,25 @@ python -m streamlit run inference.py
 ```
 
 **2. Raspberry Pi Version**
+This version is meant to run on a Raspberry Pi using Linux.  
+
+It uses the DS18B20 temperature sensor along with a lightweight Streamlit-based health assistant.
+
+The Pi setup requires enabling the 1-Wire interface, creating a virtual environment, and running both Python scripts separately.  
+The DS18B20 temperature script does not require additional Python packages.
+It accesses sensor readings directly from the Linux system path: /sys/bus/w1/devices/  
+**Enable DS18B20 Sensor on Raspberry Pi**
+Run the following commands once to enable the 1-Wire interface:  
+```bash
+echo "dtoverlay=w1-gpio" | sudo tee -a /boot/config.txt
+```
+```bash
+sudo modprobe w1-gpio
+```
+```bash
+sudo modprobe w1-therm
+```
+
+  ```bash
+sudo reboot
+```
