@@ -5,8 +5,8 @@ One version is meant for laptops/desktops, and the other runs on a Raspberry Pi 
 The goal is to make health monitoring more accessible by combining simple inputs, hand-sign recognition, and basic sensor readings.
 
 This repository contains two separate builds:  
-1.Desktop Version  
-2.Raspberry Pi Version
+  1.Desktop Version  
+  2.Raspberry Pi Version  
 Each version is optimized for the device it runs on.
 
 **Desktop version**
