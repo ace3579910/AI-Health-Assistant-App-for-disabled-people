@@ -15,9 +15,12 @@ Each version is optimized for the device it runs on.
 The desktop version contains a custom hand-sign dataset, AI-based prediction, and tools to add your own symptoms.
 Clone the desktop version using commands:
   ```bash
-  git clone https://github.com/ace3579910/assistive-health-assistant.git
+  git clone https://github.com/ace3579910/AI-Health-Assistant-App-for-disabled-people.git
   ```
-
+Move into the desktp-version folder:
+  ```bash
+  cd AI-Health-Assistant-App-for-disabled-people/desktop-version
+  ```
 Install the required libraries for the desktop version using the command below.  
 This will set up all dependencies needed for gesture capture, inference, and the AI assistant.
 ```bash
