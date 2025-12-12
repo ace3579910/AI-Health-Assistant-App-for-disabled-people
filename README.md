@@ -54,6 +54,10 @@ It lets you:
 
 The app also tries to understand vitals if you speak them aloud (e.g., “temperature 100 point 4, SpO2 94, heart rate 96”).
 
+Run Gemini_API_ADv.py
+```bash
+python -m streamlit run Gemini_API_ADv.py
+```
 3.**code2.py:** Gesture Recording Tool
 This tool records 60-frame sequences of your hand/pose movements using Mediapipe.
 You can:  
@@ -62,9 +66,13 @@ You can:
   
 &nbsp;&nbsp;&nbsp;  ii. record a gesture  
 
-  iii. save the frames as .npy files
+  &nbsp;&nbsp;&nbsp;iii. save the frames as .npy files
 These files form the dataset used for training or testing gesture recognition.
 
+Run code2.py
+```bash
+python -m streamlit run code2.py
+```
 3. inference.py
 
 This script is used to run gesture-based symptom recognition after you already have a trained model.
@@ -72,3 +80,7 @@ It takes a short live camera recording, extracts the pose and hand landmarks, an
 
 This file is mainly meant for testing the model or quickly checking how well your gestures are being recognized.
 
+Run inference.py
+```bash
+python -m streamlit run inference.py
+```
