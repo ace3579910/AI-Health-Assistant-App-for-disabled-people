@@ -35,17 +35,24 @@ These datasets are used for training models that convert hand gestures into symp
 2.**Gemini_API_ADv.py**
 This is the main assistant interface.
 It lets you:
-  -type or speak symptoms
-  -enter temperature, SpO₂, and heart rate
-  -get a simplified health explanation and suggested basic care
-  -have the results read aloud using text-to-speech
+  -type or speak symptoms  
+  
+  -enter temperature, SpO₂, and heart rate  
+  
+  -get a simplified health explanation and suggested basic care  
+  
+  -have the results read aloud using text-to-speech  
+  
 The app also tries to understand vitals if you speak them aloud (e.g., “temperature 100 point 4, SpO2 94, heart rate 96”).
 
 3.**code2.py:** Gesture Recording Tool
 This tool records 60-frame sequences of your hand/pose movements using Mediapipe.
-You can:
-  i. pick a symptom from the list
-  ii. record a gesture
+You can:  
+
+  i. pick a symptom from the list  
+  
+  ii. record a gesture  
+  
   iii. save the frames as .npy files
 These files form the dataset used for training or testing gesture recognition.
 
