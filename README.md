@@ -112,3 +112,20 @@ sudo modprobe w1-therm
   ```bash
 sudo reboot
 ```
+
+  After reboot, verify that the sensor is detected:  
+```bash
+ls /sys/bus/w1/devices/
+```
+A folder starting with 28- should appear if the sensor is connected.  
+Now,
+Clone the Repository  
+```bash
+git clone https://github.com/ace3579910/AI-Health-Assistant-App-for-disabled-people.git
+```
+Navigate to the folder
+```bash
+cd AI-Health-Assistant-App-for-disabled-people/Raspberry-version
+```
+Now setup Virtual Environment Setup (venv)  
+venv is a virtual environment keeps all the Python packages for this project isolated from the system Python installation. This prevents version conflicts, makes the project easier to manage, and ensures that the desktop and Raspberry Pi versions each use the correct dependencies without affecting other programs on the device.
