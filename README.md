@@ -30,17 +30,17 @@ pip install -r requirements-desktop.txt
 1. **gesture_data:** Custom Dataset (Hand Sign Detection)
 This dataset includes hand-sign images for the following symptoms:  
 
-&nbsp;&nbsp;&nbsp;-cough  
+&nbsp;&nbsp;&nbsp; -cough  
   
-&nbsp;&nbsp;&nbsp;-dizziness  
+&nbsp;&nbsp;&nbsp; -dizziness  
   
- &nbsp;&nbsp;&nbsp; -fever  
+&nbsp;&nbsp;&nbsp; -fever  
   
-&nbsp;&nbsp;&nbsp;  -low_back_pain  
+&nbsp;&nbsp;&nbsp; -low_back_pain  
   
 &nbsp;&nbsp;&nbsp; -nausea  
   
- &nbsp;&nbsp;&nbsp;-sore_throat
+&nbsp;&nbsp;&nbsp; -sore_throat
 
 These datasets are used for training models that convert hand gestures into symptom text.
 
@@ -49,8 +49,8 @@ This is the main assistant interface.
 It lets you:  
 
  &nbsp;&nbsp;&nbsp; -type or speak symptoms  
-  
-  &nbsp;&nbsp;&nbsp;-enter temperature, SpO₂, and heart rate  
+    
+  &nbsp;&nbsp;&nbsp; -enter temperature, SpO₂, and heart rate  
   
  &nbsp;&nbsp;&nbsp; -get a simplified health explanation and suggested basic care  
   
