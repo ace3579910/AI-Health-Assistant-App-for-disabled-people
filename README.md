@@ -17,7 +17,7 @@ Clone the desktop version using commands:
   ```bash
   git clone https://github.com/ace3579910/AI-Health-Assistant-App-for-disabled-people.git
   ```
-Move into the desktp-version folder:
+Move into the desktop-version folder:
   ```bash
   cd AI-Health-Assistant-App-for-disabled-people/desktop-version
   ```
@@ -27,7 +27,7 @@ This will set up all dependencies needed for gesture capture, inference, and the
 pip install -r requirements-desktop.txt
 ```
 
-1.**gesture_data:** Custom Dataset (Hand Sign Detection)
+1. **gesture_data:** Custom Dataset (Hand Sign Detection)
 This dataset includes hand-sign images for the following symptoms:  
 
 &nbsp;&nbsp;&nbsp;-cough  
@@ -44,7 +44,7 @@ This dataset includes hand-sign images for the following symptoms:
 
 These datasets are used for training models that convert hand gestures into symptom text.
 
-2.**Gemini_API_ADv.py**
+2. **Gemini_API_ADv.py**
 This is the main assistant interface.
 It lets you:  
 
@@ -56,13 +56,13 @@ It lets you:
   
  &nbsp;&nbsp;&nbsp; -have the results read aloud using text-to-speech  
 
-The app also tries to understand vitals if you speak them aloud (e.g., “temperature 100 point 4, SpO2 94, heart rate 96”).
+The app also tries to understand vitals if you speak them aloud (e.g., “temperature 100 point 4, SpO₂ 94, heart rate 96”).
 
 Run Gemini_API_ADv.py
 ```bash
 python -m streamlit run Gemini_API_ADv.py
 ```
-3.**code2.py:** Gesture Recording Tool
+3. **code2.py:** Gesture Recording Tool
 This tool records 60-frame sequences of your hand/pose movements using Mediapipe.
 You can:  
 
@@ -77,7 +77,7 @@ Run code2.py
 ```bash
 python -m streamlit run code2.py
 ```
-3. inference.py
+4. inference.py
 
 This script is used to run gesture-based symptom recognition after you already have a trained model.
 It takes a short live camera recording, extracts the pose and hand landmarks, and then predicts which symptom gesture you performed. The predicted label can then be passed into the main health assistant.
@@ -154,10 +154,10 @@ Run the following command:
 ```bash
 python3 DS18B20.py
 ```
-Type Crtl+C to exit.  
+Press Ctrl + C to exit.  
 
 **2. Running the AI Health Assistant on Raspberry Pi:**  
-The Raspberry Pi assistant accepts manual inputs such as symptoms, temperature, SpO2, and heart rate.
+The Raspberry Pi assistant accepts manual inputs such as symptoms, temperature, SpO₂, and heart rate.
 
 Run the application:  
 ```bash
