@@ -1,4 +1,4 @@
-```
+
 This project contains two versions of the same idea:
 an AI-based health assistant that can help users (especially elderly and disabled people) check symptoms and get basic suggestions.
 One version is meant for laptops/desktops, and the other runs on a Raspberry Pi with sensors.
@@ -25,7 +25,7 @@ pip install -r requirements-desktop.txt
 
 1.**gesture_data:** Custom Dataset (Hand Sign Detection)
 This dataset includes hand-sign images for the following symptoms:  
-
+```
   -cough  
   
   -dizziness  
@@ -37,12 +37,13 @@ This dataset includes hand-sign images for the following symptoms:
   -nausea  
   
   -sore_throat
-
+```
 These datasets are used for training models that convert hand gestures into symptom text.
 
 2.**Gemini_API_ADv.py**
 This is the main assistant interface.
-It lets you:
+It lets you:  
+```
   -type or speak symptoms  
   
   -enter temperature, SpO₂, and heart rate  
@@ -50,17 +51,17 @@ It lets you:
   -get a simplified health explanation and suggested basic care  
   
   -have the results read aloud using text-to-speech  
-  
+```
 The app also tries to understand vitals if you speak them aloud (e.g., “temperature 100 point 4, SpO2 94, heart rate 96”).
 
 3.**code2.py:** Gesture Recording Tool
 This tool records 60-frame sequences of your hand/pose movements using Mediapipe.
 You can:  
-
+```
   i. pick a symptom from the list  
   
   ii. record a gesture  
-  
+ ``` 
   iii. save the frames as .npy files
 These files form the dataset used for training or testing gesture recognition.
 
@@ -68,4 +69,4 @@ These files form the dataset used for training or testing gesture recognition.
 
 This file runs a trained model to convert a gesture (captured from camera) into a text label.
 Whatever it predicts can be fed into the main assistant.
-```
+
