@@ -143,4 +143,29 @@ pip install -r requirements-rpi.txt
 ```
 **1. Running the DS18B20 Temperature Reader:**  
 Connect the following pins  
-<img width="235" height="215" alt="image" src="https://github.com/user-attachments/assets/9332d480-9314-4899-983b-dadded720a11" />
+<img width="235" height="215" alt="image" src="https://github.com/user-attachments/assets/9332d480-9314-4899-983b-dadded720a11" />  
+&nbsp;&nbsp;&nbsp;i. VCC to 3.3V (Pin 1)  
+&nbsp;&nbsp;&nbsp;ii. GND to GND (Pin 6)  
+&nbsp;&nbsp;&nbsp;iii. DQ (Data) to GPIO4 (Pin 7)    
+
+A 4.7kΩ pull-up resistor must be placed between DQ (Data) and 3.3V  
+This resistor is required for stable 1-Wire communication.  
+Run the following command:
+```bash
+python3 DS18B20.py
+```
+Type Crtl+C to exit.  
+
+**2. Running the AI Health Assistant on Raspberry Pi:**  
+The Raspberry Pi assistant accepts manual inputs such as symptoms, temperature, SpO2, and heart rate.
+
+Run the application:  
+```bash
+python -m streamlit run ai_health_assistant_app.py
+```
+After running the command, open the app in your browser. If you are running Streamlit on your own computer, use http://localhost:8501. If you are running it on a Raspberry Pi through PuTTY or SSH, open the Network URL shown in the terminal (for example, http://<pi-ip>:8501) from any device on the same network.
+
+Now to deactivate venv , type the following command:
+```bash
+deactivate
+```
