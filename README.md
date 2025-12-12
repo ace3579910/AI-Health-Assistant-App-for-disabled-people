@@ -16,17 +16,17 @@ Clone the desktop version using commands:
   git clone https://github.com/ace3579910/assistive-health-assistant.git
   ```
 1.**gesture_data:** Custom Dataset (Hand Sign Detection)
-This dataset includes hand-sign images for the following symptoms:
+This dataset includes hand-sign images for the following symptoms:  
 
-  -cough
+  -cough  
   
-  -dizziness
+  -dizziness  
   
-  -fever
+  -fever  
   
-  -low_back_pain
+  -low_back_pain  
   
-  -nausea
+  -nausea  
   
   -sore_throat
 
