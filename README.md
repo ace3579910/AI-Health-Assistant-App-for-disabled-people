@@ -25,10 +25,10 @@ pip install -r requirements-desktop.txt
 
 1.**gesture_data:** Custom Dataset (Hand Sign Detection)
 This dataset includes hand-sign images for the following symptoms:  
-```
-  -cough  
+
+&nbsp;&nbsp;&nbsp;-cough  
   
-  -dizziness  
+&nbsp;&nbsp;&nbsp;-dizziness  
   
   -fever  
   
@@ -37,7 +37,7 @@ This dataset includes hand-sign images for the following symptoms:
   -nausea  
   
   -sore_throat
-```
+
 These datasets are used for training models that convert hand gestures into symptom text.
 
 2.**Gemini_API_ADv.py**
