@@ -17,12 +17,19 @@ Clone the desktop version using commands:
   ```
 1.**gesture_data:** Custom Dataset (Hand Sign Detection)
 This dataset includes hand-sign images for the following symptoms:
+
   -cough
+  
   -dizziness
+  
   -fever
+  
   -low_back_pain
+  
   -nausea
+  
   -sore_throat
+
 These datasets are used for training models that convert hand gestures into symptom text.
 
 2.**Gemini_API_ADv.py**
