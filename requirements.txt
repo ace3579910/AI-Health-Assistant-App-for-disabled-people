@@ -1,0 +1,10 @@
+streamlit
+opencv-python
+numpy
+mediapipe
+tensorflow
+scikit-learn
+google-generativeai
+SpeechRecognition
+pyttsx3
+pyaudio
