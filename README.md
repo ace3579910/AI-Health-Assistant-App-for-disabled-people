@@ -5,16 +5,16 @@ One version is meant for laptops/desktops, and the other runs on a Raspberry Pi 
 The goal is to make health monitoring more accessible by combining simple inputs, hand-sign recognition, and basic sensor readings.
 
 This repository contains two separate builds:
-1.Desktop Version
-2.Raspberry Pi Version
+  1.Desktop Version
+  2.Raspberry Pi Version
 Each version is optimized for the device it runs on.
 
 **Desktop version**
 The desktop version contains a custom hand-sign dataset, AI-based prediction, and tools to add your own symptoms.
 Clone the desktop version using commands:
-  '''bash
+  ```bash
   git clone https://github.com/ace3579910/assistive-health-assistant.git
-  
+  ```
 1.**gesture_data:** Custom Dataset (Hand Sign Detection)
 This dataset includes hand-sign images for the following symptoms:
   -cough
