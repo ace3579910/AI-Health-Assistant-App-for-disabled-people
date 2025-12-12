@@ -38,7 +38,7 @@ def format_output(temp_c):
         s += "  -> Below normal (sensor may not be in contact)"
     return s
 
-if _name_ == '_main_':
+if __name__ == "__main__":
     last_valid_temp = None
     try:
         while True:
