@@ -15,6 +15,13 @@ Clone the desktop version using commands:
   ```bash
   git clone https://github.com/ace3579910/assistive-health-assistant.git
   ```
+
+Install the required libraries for the desktop version using the command below.  
+This will set up all dependencies needed for gesture capture, inference, and the AI assistant.
+```bash
+pip install -r requirements-desktop.txt
+```
+
 1.**gesture_data:** Custom Dataset (Hand Sign Detection)
 This dataset includes hand-sign images for the following symptoms:  
 
