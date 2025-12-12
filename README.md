@@ -1,3 +1,4 @@
+```
 This project contains two versions of the same idea:
 an AI-based health assistant that can help users (especially elderly and disabled people) check symptoms and get basic suggestions.
 One version is meant for laptops/desktops, and the other runs on a Raspberry Pi with sensors.
@@ -67,3 +68,4 @@ These files form the dataset used for training or testing gesture recognition.
 
 This file runs a trained model to convert a gesture (captured from camera) into a text label.
 Whatever it predicts can be fed into the main assistant.
+```
